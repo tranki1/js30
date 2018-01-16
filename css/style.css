@@ -34,7 +34,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-.keys {
+.key {
   border: 2px solid white;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -45,6 +45,7 @@ h1 {
   width: 50px;
   height: 50px;
   text-align: center;
+  transition: all 0.07s;
 }
 
 kbd {
@@ -56,5 +57,7 @@ kbd {
 }
 
 .playing {
+  transform: scale(1.1);
   border: #fdc02f 4px solid;
+  box-shadow: 0 0 10px #fdc02f;
 }
