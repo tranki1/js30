@@ -40,4 +40,27 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  /* transition: all 1s; */
+  transition-timing-function: cubic-bezier(0.42, 0, 0, 1.51);
+}
+
+.min-hand {
+  width: 40%;
+  left: 10%;
+}
+
+.hour-hand {
+  width: 30%;
+  left: 20%;
+}
+.hand-hold {
+  background: black;
+  position: absolute;
+  top: calc(50% - 5px);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  left: calc(50% - 7.55px);
 }
