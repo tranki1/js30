@@ -1,7 +1,12 @@
-/*
-            misc styles, nothing to do with CSS variables
-          */
-
+/* CSS variables*/
+:root {
+  --base: #50e56a;
+  --spacing: 20px;
+  --blur: 10px;
+}
+* {
+  box-sizing: border-box;
+}
 body {
   text-align: center;
   background: #263840;
@@ -9,6 +14,16 @@ body {
   font-family: "helvetica neue", sans-serif;
   font-weight: 100;
   font-size: 30px;
+}
+h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.hl {
+  color: var(--base);
+  font-size: 30px;
+  display: block;
 }
 
 .container {
@@ -28,6 +43,9 @@ body {
 
 img {
   max-width: 100%;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
 }
 .control label {
   flex-grow: 1;
