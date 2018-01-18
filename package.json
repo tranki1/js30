@@ -1,0 +1,25 @@
+{
+  "name": "js30",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranki1/js30.git"
+  },
+  "author": "kimtran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranki1/js30/issues"
+  },
+  "homepage": "https://github.com/tranki1/js30#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1"
+  }
+}
