@@ -2,7 +2,7 @@
 :root {
   --base: #50e56a;
   --spacing: 20px;
-  --blur: 10px;
+  --blur: 0px;
 }
 * {
   box-sizing: border-box;
