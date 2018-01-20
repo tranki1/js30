@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "ArrayCadio/";
+outputDir = "flexPanel/";
 
 gulp.task("js", function() {
   gulp
