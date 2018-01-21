@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "arrayCardio2/";
+outputDir = "canvas/";
 
 gulp.task("js", function() {
   gulp
