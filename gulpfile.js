@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "flexPanel/";
+outputDir = "ajaxTypeAhead/";
 
 gulp.task("js", function() {
   gulp
