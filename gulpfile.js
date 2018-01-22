@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "ajaxTypeAhead/";
+outputDir = "arrayCardio2/";
 
 gulp.task("js", function() {
   gulp
