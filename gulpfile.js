@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "canvas/";
+outputDir = "Hold-shift-to-check-multi-checkboxes/";
 
 gulp.task("js", function() {
   gulp
