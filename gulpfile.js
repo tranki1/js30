@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "Hold-shift-to-check-multi-checkboxes/";
+outputDir = "Custom-HTML5-video-player/";
 
 gulp.task("js", function() {
   gulp
