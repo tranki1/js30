@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "Custom-HTML5-video-player/";
+outputDir = "Key-Sequence-Detection/";
 
 gulp.task("js", function() {
   gulp
