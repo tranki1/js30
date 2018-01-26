@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "Key-Sequence-Detection/";
+outputDir = "Slide-in-on-Scroll/";
 
 gulp.task("js", function() {
   gulp
