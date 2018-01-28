@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "Slide-in-on-Scroll/";
+outputDir = "LocalStorage-and-event-delegation/";
 
 gulp.task("js", function() {
   gulp
