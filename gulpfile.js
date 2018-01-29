@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "LocalStorage-and-event-delegation/";
+outputDir = "Mouse-Move-Shadow/";
 
 gulp.task("js", function() {
   gulp
