@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "Mouse-Move-Shadow/";
+outputDir = "Sort-Without-Articles/";
 
 gulp.task("js", function() {
   gulp
