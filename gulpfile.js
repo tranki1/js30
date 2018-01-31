@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "Sort-Without-Articles/";
+outputDir = "Adding-Up-Times-with-Reduce/";
 
 gulp.task("js", function() {
   gulp
