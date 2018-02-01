@@ -2,7 +2,7 @@ var gulp = require("gulp"),
   connect = require("gulp-connect");
 
 var outputDir;
-outputDir = "Adding-Up-Times-with-Reduce/";
+outputDir = "Webcam-Fun/";
 
 gulp.task("js", function() {
   gulp
